@@ -1,0 +1,14 @@
+# domain: JFurber.github.io
+# url: https://JFurber.github.io
+# baseurl: /Maths-PGR-Conference-2023/
+theme: jekyll-theme-cayman
+
+github:
+  is_project_page: false
+
+title: Spending an Energy for a Reward - Understanding the Fine Movements of Badgers
+description: Jessica Furber
+
+math: true
+kramdown:
+  math_engine: mathjax
