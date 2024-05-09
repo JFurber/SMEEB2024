@@ -25,8 +25,7 @@ Below is the animation linked to Figure 3, where the 'badger' can be seen to be 
 The animation is plotted every two iterations to show a smoother movement of the badger following its trajectory. This is a great tool to have a better visual of the badger movements in the park.
 
 <p align="center">
-<img src="Video_Traj_10000.gif"
-      width ="350">
+<img src="Video_Traj_10000.gif">
 </p>
 
 ---
