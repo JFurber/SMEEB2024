@@ -22,10 +22,10 @@ We present results on the parameterized model with the data. This includes the g
 
 Below is the animation linked to Figure 3, where the 'badger' can be seen to be moving along its trajectory. The initial position links to an individual badger that is being monitored at the park, and the diffusion term of the badger has been calculated. 
 
-The animation is plotted every two iterations to show a smoother movement of the badger following its trajectory, in comparison to every thirty-five iterations in Figure 3. Also, only the first 10,000 iterations have been animated out of the 100,000 generated. But, this is a great tool to have a better visual of the badger movements in the park.
+The animation is plotted every two iterations to show a smoother movement of the badger following its trajectory. This is a great tool to have a better visual of the badger movements in the park.
 
 <p align="center">
-<img src="14M_10000.gif">
+<img src="Video_Traj_10000.gif">
 </p>
 
 ---
