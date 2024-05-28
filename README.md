@@ -5,7 +5,7 @@
 
 <h1 style="text-align: center;"> Stochastic Models and Experiments in Ecology and Biology (SMEEB) 2024, L' Aquila, Italy  </h1>
 
-Thank you to the Institute of Applied Mathematics (IMA) for a small grant to help to in attending this conference.
+Thank you to the Institute of Applied Mathematics (IMA) for a small grant to help me attend this conference.
 
 <h2 style="text-align: center;"> Abstract </h2>
 
