@@ -5,6 +5,8 @@
 
 <h1 style="text-align: center;"> Stochastic Models and Experiments in Ecology and Biology (SMEEB) 2024, L' Aquila, Italy  </h1>
 
+Thank you to the Institute of Applied Mathematics (IMA) for a small grant to help to in attending this conference.
+
 <h2 style="text-align: center;"> Abstract </h2>
 
 We investigate a modelling framework to understand the fine-scale movement of the European badger (_Meles meles_) within their environment. It is widely understood that badgers play a crucial role in the transmission of bovine tuberculosis (bTB), where bTB is a serious disease of cattle and has a significant economic impact on farmers. However, despite all the GPS data, ecologists still do not understand what they can learn from the data about fine-scale badger movement. A key research question we would like to answer is can we generate a dynamical model to explore and understand better badger movement?
