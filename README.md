@@ -25,27 +25,27 @@ Kernel density estimation (KDE) estimates the density ($$\rho$$), whereas we req
 \begin{equation}
 \rho = e^{- V/\beta},
 \end{equation}
-where $$\beta$$ relates to the Boltzmann constant. To obtain an estimate for $V$, we need to take the logarithm, i.e.
+where $$\beta$$ relates to the Boltzmann constant. To obtain an estimate for $$V$$, we need to take the logarithm, i.e.
 \begin{equation}
     V = - \log(\rho).
 \end{equation}
-The density is calculated with the concept of weighting the distances of our observations from a particular point, $x$ and can be expressed informally as:
-$$ \begin{equation}
+The density is calculated with the concept of weighting the distances of our observations from a particular point, $$x$$ and can be expressed informally as:
+\begin{equation}
 \rho(x) =\sum_{i=1}^{n} K\left(x - X_i ; h \right),
-\end{equation} $$
-where $K: \RR^2 \rightarrow \RR $ represents the kernel function, $X_i;i=1 \cdots n$ represents the observations, and $h> 0$ is the smoothing parameter called the bandwidth. There are several choices of kernels, but the Gaussian kernel is most appropriate for the task to gain the wells, which has the form,
-$$ \begin{equation}
+\end{equation}
+where $$K: \RR^2 \rightarrow \mathbb{R} $$ represents the kernel function, $$X_i;i=1 \cdots n$$ represents the observations, and $$h> 0$$ is the smoothing parameter called the bandwidth. There are several choices of kernels, but the Gaussian kernel is most appropriate for the task to gain the wells, which has the form,
+\begin{equation}
     K(x;h) \propto \exp \left(- \frac{x^2}{2h^2}\right).
-\end{equation} $$
+\end{equation}
 With a normalization constant of 
-$$
+\begin{equation}
 c = \frac{1}{2h\sqrt{2\pi}},
-$$
-the density $\rho$ takes the form
-$$ \begin{equation}
+\end{equation}
+the density $$\rho$$ takes the form
+\begin{equation}
 \rho(x) = \frac{c}{n} \sum_{i=1}^{n} \exp\left( - \frac{||x-X_i||^2}{2h^2} \right),
-\end{equation}$$
-with $||\cdot||$ is the Euclidean norm.
+\end{equation}
+with $$||\cdot||$$ is the Euclidean norm.
 
 ---
 
