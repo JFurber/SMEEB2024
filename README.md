@@ -33,7 +33,7 @@ The density is calculated with the concept of weighting the distances of our obs
 \begin{equation}
 \rho(x) =\sum_{i=1}^{n} K\left(x - X_i ; h \right),
 \end{equation}
-where $$K: \RR^2 \rightarrow \mathbb{R} $$ represents the kernel function, $$X_i;i=1 \cdots n$$ represents the observations, and $$h> 0$$ is the smoothing parameter called the bandwidth. There are several choices of kernels, but the Gaussian kernel is most appropriate for the task to gain the wells, which has the form,
+where $$K: \mathbb{R}^2 \rightarrow \mathbb{R} $$ represents the kernel function, $$X_i;i=1 \cdots n$$ represents the observations, and $$h> 0$$ is the smoothing parameter called the bandwidth. There are several choices of kernels, but the Gaussian kernel is most appropriate for the task to gain the wells, which has the form,
 \begin{equation}
     K(x;h) \propto \exp \left(- \frac{x^2}{2h^2}\right).
 \end{equation}
