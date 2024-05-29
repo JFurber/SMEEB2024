@@ -17,6 +17,35 @@ The modelling framework that we have created allow us to answer key ecological q
 
 In this presentation, we explore the results of the parameterized model and use it to investigate transition rates between badger social groups, where badgers cross various territories. We also discuss the pros and cons of the generation of an energy surface and the estimation of a noise term. 
 
+---
+
+<h2 style="text-align: center;"> Kernel Density Estimation </h2>
+
+Kernel density estimation (KDE) estimates the density ($\rho$), whereas we require the energy potential, $V$, in application. From the Boltzmann distribution, the density has the form,
+\begin{equation}
+\rho = e^{- V/\beta},
+\end{equation}
+where $\beta$ relates to the Boltzmann constant. To obtain an estimate for $V$, we need to take the logarithm, i.e.
+$$ \begin{equation}
+    V = - \log(\rho).
+\end{equation} $$
+The density is calculated with the concept of weighting the distances of our observations from a particular point, $x$ and can be expressed informally as:
+$$ \begin{equation}
+\rho(x) =\sum_{i=1}^{n} K\left(x - X_i ; h \right),
+\end{equation} $$
+where $K: \RR^2 \rightarrow \RR $ represents the kernel function, $X_i;i=1 \cdots n$ represents the observations, and $h> 0$ is the smoothing parameter called the bandwidth. There are several choices of kernels, but the Gaussian kernel is most appropriate for the task to gain the wells, which has the form,
+$$ \begin{equation}
+    K(x;h) \propto \exp \left(- \frac{x^2}{2h^2}\right).
+\end{equation} $$
+With a normalization constant of 
+$$
+c = \frac{1}{2h\sqrt{2\pi}},
+$$
+the density $\rho$ takes the form
+$$ \begin{equation}
+\rho(x) = \frac{c}{n} \sum_{i=1}^{n} \exp\left( - \frac{||x-X_i||^2}{2h^2} \right),
+\end{equation}$$
+with $||\cdot||$ is the Euclidean norm.
 
 ---
 
