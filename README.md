@@ -27,7 +27,7 @@ Kernel density estimation (KDE) estimates the density ($$\rho$$), whereas we req
 \end{equation}
 where $$\beta$$ relates to the Boltzmann constant. To obtain an estimate for $$V$$, we need to take the logarithm, i.e.
 \begin{equation}
-    V = - \log(\rho).
+    V = - \beta \log(\rho).
 \end{equation}
 The density is calculated with the concept of weighting the distances of our observations from a particular point, $$x$$ and can be expressed informally as:
 \begin{equation}
