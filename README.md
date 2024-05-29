@@ -21,14 +21,14 @@ In this presentation, we explore the results of the parameterized model and use 
 
 <h2 style="text-align: center;"> Kernel Density Estimation </h2>
 
-Kernel density estimation (KDE) estimates the density ($\rho$), whereas we require the energy potential, $V$, in application. From the Boltzmann distribution, the density has the form,
+Kernel density estimation (KDE) estimates the density ($$\rho$$), whereas we require the energy potential, $$V$$, in application. From the Boltzmann distribution, the density has the form,
 \begin{equation}
 \rho = e^{- V/\beta},
 \end{equation}
-where $\beta$ relates to the Boltzmann constant. To obtain an estimate for $V$, we need to take the logarithm, i.e.
-$$ \begin{equation}
+where $$\beta$$ relates to the Boltzmann constant. To obtain an estimate for $V$, we need to take the logarithm, i.e.
+\begin{equation}
     V = - \log(\rho).
-\end{equation} $$
+\end{equation}
 The density is calculated with the concept of weighting the distances of our observations from a particular point, $x$ and can be expressed informally as:
 $$ \begin{equation}
 \rho(x) =\sum_{i=1}^{n} K\left(x - X_i ; h \right),
