@@ -7,6 +7,13 @@
 
 Thank you to the Institute of Mathematics and its Applications (IMA) for a small grant to help me attend this conference.
 
+This poster is being resued for the University of Surrey Vet School Research Symposium on Wednesday 24th September 2025.
+
+For a published paper, titled *Data-driven analysis of fine-scale badger movement in the UK*, in PLOS Computational Biology, where the results of the diffusion and the Extended Dynamic mode is discussed, please visit: 
+
+https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1013372
+
+
 <h2 style="text-align: center;"> Abstract </h2>
 
 We investigate a modelling framework to understand the fine-scale movement of the European badger (_Meles meles_) within their environment. It is widely understood that badgers play a crucial role in the transmission of bovine tuberculosis (bTB), where bTB is a serious disease of cattle and has a significant economic impact on farmers. However, despite all the GPS data, ecologists still do not understand what they can learn from the data about fine-scale badger movement. A key research question we would like to answer is can we generate a dynamical model to explore and understand better badger movement?
