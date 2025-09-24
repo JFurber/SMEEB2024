@@ -11,7 +11,7 @@ This poster is being resued for the University of Surrey Vet School Research Sym
 
 For a published paper, titled *Data-driven analysis of fine-scale badger movement in the UK*, in PLOS Computational Biology, where the results of the diffusion and the Extended Dynamic mode is discussed, please visit: 
 
-https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1013372
+<a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1013372">Data-driven analysis of fine-scale badger movement in the UK</a>
 
 
 <h2 style="text-align: center;"> Abstract </h2>
